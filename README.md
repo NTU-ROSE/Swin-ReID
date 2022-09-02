@@ -107,6 +107,8 @@ python test.py --config_file configs/OCC_Duke/vit_transreid_stride.yml MODEL.DEV
 # Market
 python test.py --config_file configs/Market/vit_transreid_stride.yml MODEL.DEVICE_ID "('0')"  TEST.WEIGHT '../logs/market_vit_transreid_stride/transformer_120.pth'
 
+```
+
 ## Acknowledgement
 
 Codebase from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) , [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)
