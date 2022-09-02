@@ -18,7 +18,8 @@ Please refer to TransReID.
 
 ```bash
 pip install -r requirements.txt
-(we use /torch 1.6.0 /torchvision 0.7.0 /timm 0.3.2 /cuda 10.1 / 16G or 32G V100 for training and evaluation.
+
+(we use /torch 1.7.1 /torchvision 0.8.2 /timm 0.3.2 /cuda 11.7 /  for training and evaluation.
 Note that we use torch.cuda.amp to accelerate speed of training which requires pytorch >=1.6)
 ```
 
@@ -111,9 +112,9 @@ python test.py --config_file configs/Market/vit_transreid_stride.yml MODEL.DEVIC
 Codebase from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) , [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)
 
 
-## Citation
-
 If you find this code useful for your research, please cite TransReID.
+
+## Citation
 
 ```
 @InProceedings{He_2021_ICCV,
