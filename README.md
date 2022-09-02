@@ -115,7 +115,6 @@ Codebase from [reid-strong-baseline](https://github.com/michuanhaohao/reid-stron
 If you find this code useful for your research, please cite TransReID.
 
 ## Citation
-
 ```
 @InProceedings{He_2021_ICCV,
     author    = {He, Shuting and Luo, Hao and Wang, Pichao and Wang, Fan and Li, Hao and Jiang, Wei},
