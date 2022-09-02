@@ -86,7 +86,7 @@ python train.py --config_file configs/MSMT17/swin_transreid_stride.yml MODEL.DEV
 python train.py --config_file configs/OCC_Duke/swin_transreid_stride.yml MODEL.DEVICE_ID "('0')"
 # Market
 python train.py --config_file configs/Market/swin_transreid_stride.yml MODEL.DEVICE_ID "('0')"
-
+```
 
 Tips:  For person datasets  with size 256x128, Swin TransReID with stride occupies 12GB GPU memory.
 ## Evaluation
