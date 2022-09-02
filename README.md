@@ -1,18 +1,20 @@
 ![Python >=3.5](https://img.shields.io/badge/Python->=3.5-yellow.svg)
 ![PyTorch >=1.0](https://img.shields.io/badge/PyTorch->=1.6-blue.svg)
 
-Swin ReID: Swin Transformer-based Object Re-Identification [[pdf]]
+Swin ReID: Swin Transformer-based Object Re-Identification
 
 
 ## Pipeline
 
-![framework](figs/framework.png)
+![image](https://user-images.githubusercontent.com/34055413/188075291-90bbce2f-79a2-406f-8c84-69b5984c8fbf.png)
 
 
 
 ## Requirements
 
 ### Installation
+
+Please refer to TransReID.
 
 ```bash
 pip install -r requirements.txt
